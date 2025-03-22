@@ -1,7 +1,7 @@
 {
-  "name": "quickstart-web-js-npm",
+  "name": "deepar-poc",
   "version": "1.0.0",
-  "description": "Quickstart project for DeepAR Web.",
+  "description": "DeepAR POC for Web.",
   "main": "index.js",
   "scripts": {
     "build": "rm -rf dist && webpack --config webpack.config.js --mode production && cp -r public/* dist && cp -r node_modules/deepar dist/deepar-resources",
