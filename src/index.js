@@ -9,10 +9,6 @@ console.log("Deepar version: " + deepar.version);
   // Get the element you want to place DeepAR into. DeepAR will inherit its width and height from this and fill it.
   const previewElement = document.getElementById("ar-screen");
 
-  // trigger loading progress bar animation
-  const loadingProgressBar = document.getElementById("loading-progress-bar");
-  loadingProgressBar.style.width = "100%";
-
   // All the effects are in the public/effects folder.
   // Here we define the order of effect files.
 
