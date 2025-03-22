@@ -17,21 +17,21 @@ console.log("Deepar version: " + deepar.version);
   // All the effects are in the public/effects folder.
   // Here we define the order of effect files.
   const effectList = [
-    "resources/effects/ray-ban-wayfarer.deepar",
-    "resources/effects/viking_helmet.deepar",
-    "resources/effects/MakeupLook.deepar",
-    "resources/effects/Split_View_Look.deepar",
-    "resources/effects/flower_face.deepar",
-    "resources/effects/Stallone.deepar",
-    "resources/effects/galaxy_background_web.deepar",
-    "resources/effects/Humanoid.deepar",
-    "resources/effects/Neon_Devil_Horns.deepar",
-    "resources/effects/Ping_Pong.deepar",
-    "resources/effects/Pixel_Hearts.deepar",
-    "resources/effects/Snail.deepar",
-    "resources/effects/Hope.deepar",
-    "resources/effects/Vendetta_Mask.deepar",
-    "resources/effects/Fire_Effect.deepar",
+    "effects/ray-ban-wayfarer.deepar",
+    "effects/viking_helmet.deepar",
+    "effects/MakeupLook.deepar",
+    "effects/Split_View_Look.deepar",
+    "effects/flower_face.deepar",
+    "effects/Stallone.deepar",
+    "effects/galaxy_background_web.deepar",
+    "effects/Humanoid.deepar",
+    "effects/Neon_Devil_Horns.deepar",
+    "effects/Ping_Pong.deepar",
+    "effects/Pixel_Hearts.deepar",
+    "effects/Snail.deepar",
+    "effects/Hope.deepar",
+    "effects/Vendetta_Mask.deepar",
+    "effects/Fire_Effect.deepar",
   ];
 
   let deepAR = null;
@@ -45,7 +45,7 @@ console.log("Deepar version: " + deepar.version);
       // Removing the rootPath option will make DeepAR load the resources from the JSdelivr CDN,
       // which is fine for development but is not recommended for production since it's not optimized for performance and can be unstable.
       // More info here: https://docs.deepar.ai/deepar-sdk/platforms/web/tutorials/download-optimizations/#custom-deployment-of-deepar-web-resources
-      rootPath: "./resources",
+      rootPath: "./deepar-resources",
       additionalOptions: {
         cameraConfig: {
           // facingMode: 'environment'  // uncomment this line to use the rear camera
